@@ -6,11 +6,17 @@ gdb sourse unpack.py
 gdb upx-unpack
 
 Что делает скрипт:
+
 gdb pack2
+
 catch syscall munmap
+
 r
+
 c
+
 (gdb) info proc mappings 
+
 process 4880
 Mapped address spaces:
 
