@@ -1,9 +1,17 @@
 Скрипт для распаковки elf. Которые упакованы UPX.
+
 Когда upx при распаковке выдает такую ошибку "upx: pack2: NotPackedException: not packed by UPX".
+
 Как пользоваться:
+
 gdb [packed_program]
-gdb sourse unpack.py
-gdb upx-unpack
+
+(gdb) sourse unpack.py
+
+(gdb) upx-unpack
+
+
+Создатется файл с именим upack_upx.
 
 Что делает скрипт:
 
